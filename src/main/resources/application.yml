@@ -1,0 +1,8 @@
+server:
+  port: 8090
+jwt:
+  header: Authorization
+  expires_in: 600 #10分钟
+  secret: zhangyanfu
+  cookie: AUTH_TOKEN
+  
